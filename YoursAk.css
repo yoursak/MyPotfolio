@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --first-color: #dabba6;
+    --second-color: #714e6c;
+    --white: #fff;
+    --cover: rgba(0,0,0,0.5);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('pexels-snapwire.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+li{
+    display: inline;
+    font-family: Franklin Gothic Medium;
+
+}
+
+ul{
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li a{
+    padding: 8px;
+    text-align: center;
+    color: var(--white);    
+}
+
+a:link {
+  text-decoration: none;
+  color: #whitesmoke;
+}
+
+.navigation{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+h1{
+    color: var(--white);
+    padding: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    font-family:  "Brush Script MT", cursive;
+}
+
+
+.parent{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--first-color);
+    position: sticky;
+}
+
+i{
+    padding: 4px;
+}
+
+a:hover {
+   background-color: whitesmoke;
+   transition: 1s;
+}
+
+@media(ma-width: 768px){
+    nav{
+
+    }
+}
+
+.parent1{
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+    height: 30wh;
+    position: absolute;
+    left: 35%;
+    transform:translateY(200px);
+    text-align: center;
+
+
+}
+
+h2{
+    font-family: Impact, fantasy;
+    font-size: 60px;
+}
+
+.collapsible {
+  background-color: #fff;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+
+}
+
+.active, .collapsible:hover {
+  background-color: whitesmoke;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.parent2{
+    width: 100%;
+    position: absolute;
+    top: 650px;
+}
+
+.parent2{
+    background-color: #fff;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.about{
+    margin-top: 100px;
+}
+
+h3{
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.row{
+    margin top 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company-col{
+    flex-basis:31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.company-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
